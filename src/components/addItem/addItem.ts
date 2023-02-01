@@ -9,6 +9,6 @@ export class Add extends Component {
   }
 
   createTemplate() {
-    return `<button>Click</button>`;
+    return `<button class='btn-add'>Click</button>`;
   }
 }
