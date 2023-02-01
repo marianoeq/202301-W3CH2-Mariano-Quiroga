@@ -26,7 +26,6 @@ export class Pet implements PetStructure {
     public isAdopted: boolean,
     public owner: string
   ) {
-    // Cuando declaro las propiedades dentro de las llaves del constructor es xq ya les estoy pasando valores.
-    this.id = '';
+    this.id = Pet.generateId();
   }
 }
